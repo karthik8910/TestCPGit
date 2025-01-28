@@ -1,0 +1,4 @@
+// Step - 1
+open("https://www.catchpoint.com/")
+waitForNoRequest("3000")
+assertElementPresent("//*[@id='CatchpointTest' or @name='CatchpointTest']")
