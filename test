@@ -1,4 +1,4 @@
 // Step - 1
-open("https://www.google.com/")
+open("https://www.catchpoint.com/")
 waitForNoRequest("1000")
 assertElementPresent("//*[@id='CatchpointTest' or @name='CatchpointTest']")
